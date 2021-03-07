@@ -4,6 +4,7 @@
 
 ## Acknowledgements
 
--DBinary
--squid233
+
+ - DBinary
+ - squid233
 
