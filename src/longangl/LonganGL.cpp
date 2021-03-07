@@ -119,7 +119,7 @@ static BOOL init_instance(HINSTANCE hInstance, int nCmdShow)
     hdc = GetDC(hWnd);
     mdc = CreateCompatibleDC(hdc);
 
-    hbmp = (HBITMAP)LoadImage(NULL, "LonganGL.bmp", IMAGE_BITMAP, 800, 600, LR_LOADFROMFILE);
+    hbmp = (HBITMAP)LoadImage(NULL, "LonganGLlogo.bmp", IMAGE_BITMAP, 800, 600, LR_LOADFROMFILE);
     SelectObject(mdc, hbmp);
 
     BitBlt(hdc, 0, 0, 800, 600, mdc, 0, 0, SRCCOPY);
@@ -132,6 +132,8 @@ static BOOL init_instance(HINSTANCE hInstance, int nCmdShow)
 
     return TRUE;
 }
+
+
 
 
 int main()
